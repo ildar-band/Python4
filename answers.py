@@ -3,4 +3,6 @@ def get_answer(question):
 	answers = {'привет':'И тебе!',"?":"ничегO", "поКа":"пока!"}
 	return answers.get(a.lower())
 
-print(get_answer("?"))
+
+if __name__ == '__main__':
+    print(get_answer("?"))
